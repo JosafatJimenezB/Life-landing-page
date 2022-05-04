@@ -7,21 +7,90 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-image: url('../assets/BackgroundImage.png');
+    background-size: cover;
     color: #fff;
 }
 
 
 header{
     display: flex;
+    align-items: center;
     width: 100%;
     height: auto;
     padding: 50px 100px;
     justify-content: space-between;
 }
 
+.logo h3{
+    font-size: 2rem;
+}
+
 .menu nav ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 20px;
+    margin-left: 70px;
+    font-size: 1.2rem;
+}
+
+
+
+/* ------------ landing part ------------- */
+
+.landing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.landing-text{
+    text-align: center;
+    width: 1000px;
+    text-transform: uppercase;
+}
+
+.landing-text h1{
+    font-size: 20rem;
+    letter-spacing: 5rem;
+    margin-bottom: 10px;
+}
+
+.landing-text h2{
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 1rem;
+}
+
+
+/* --------- redes sociales ---------- */
+
+.social-media{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.social-media i{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.scroll-down{
+    position: absolute;
+    font-size: 0.9rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    bottom: 150px;
+    right: 80px;
+}
+
+.scroll-down h3{
+    transform: rotate(90deg);
 }
 
