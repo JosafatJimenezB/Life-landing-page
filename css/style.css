@@ -186,3 +186,56 @@ header{
         right: 0px;
     }
 }
+
+
+@media screen and (min-width: 270px) and (max-width: 767px){
+    
+    header{
+        padding: 30px 30px;
+    }
+
+    .landing{
+        box-sizing: border-box;
+    }
+    
+    .logo h3{
+        font-size: 1.4rem;
+    }
+    
+    .menu nav ul li{
+        font-size: 1rem;
+    }
+
+    .landing-text{
+        overflow: hidden;
+        padding: 50px 30px 0;
+    }
+    
+    .landing-text h1{
+        font-size: 5.2rem;
+        margin-bottom: 50px;
+        letter-spacing: 2.3rem;
+    }
+    .landing-text h2{
+        font-size: 3rem;
+    }
+    
+
+    
+    .social-media{
+        bottom: 50px;
+        left: 30px;
+    }
+
+    .social-media i{
+        font-size: 1.2rem;
+    }
+    
+    .scroll-down{
+        font-size: 0.9rem;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        bottom: 100px;
+        right: 0px;
+    }
+}
